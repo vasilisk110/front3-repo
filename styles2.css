@@ -1,0 +1,879 @@
+/*Фон*/
+.background {
+  display: flex;
+  width: 100%;
+  height: 2000.34px;
+  background: #04758B;
+}
+
+.black_fon {
+
+  width: 1300px;
+  height: 1800.98px;
+  margin-left: 100px;
+  margin-top: 100.62px;
+  background: #000000;
+  border-radius: 50px;
+}
+/*Лого і навігація*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 316.38px;
+  height: 106.48px;
+
+  color: #FFED66;
+}
+#nav_mobile {
+  width: 0;
+  height: 0;
+}
+#logo_film1 {
+  z-index: 3;
+  width: 100px;
+  height: 100px;
+}
+#logo_film2 {
+  margin-left: -98px;
+  width: 100px;
+  height: 100px;
+
+}
+#logo_text {
+  margin-top: -35px;
+  margin-left: 120px;
+  width: 192px;
+  height: 41px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+}
+.nav {
+  width: 637.17px;
+  height: 25px;
+  margin-right: 50px;
+  margin-top: 92.09px;
+  color: #FFFFFF;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+.nav_text a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.nav_text:hover {
+  font-weight: bold;
+}
+/*Інформація*/
+.information {
+
+  width: 778.23px;
+  height: 788.11px;
+  margin-left: 260.88px;
+  margin-top: 101.56px;
+}
+.name {
+text-align: center;
+  width: 778.23px;
+  height: 80px;
+}
+.information_first_text {
+
+  width: 753.28px;
+  height: 44.12px;
+  left: 12.47px;
+  top: 17.94px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.film_img img{
+
+  width: 271.88px;
+  height: 395.93px;
+  top: 104.08px;
+  left: 4.12px;
+  border-radius: 15px;
+}
+.film_information {
+display: flex;
+  width: 470px;
+  height: 438.22px;
+  margin-top: -404.08px;
+  margin-left: 304.12px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+.film_description {
+  text-align: center;
+  width: 770px;
+  height: 264.01px;
+  margin-top: -20px;
+  margin-left: 4.12px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.description {
+
+  width: 732.43px;
+  height: 230.45px;
+  margin-left: 12.45px;
+  margin-top: 20.52px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+
+}
+.quality_HD{
+  margin-left: 20px;
+}
+.quality {
+
+  width: 305.34px;
+  height: 46.09px;
+  margin-left: 17.79px;
+  margin-top: 15.42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#HD {
+
+  width: 305.34px;
+  height: 46.09px;
+  margin-top: 10.42px;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #008000;
+}
+.original_name_mebeforeyou{
+  margin-top: 30px;
+  margin-left: -130px;
+}
+.original_name {
+
+  width: 427.09px;
+  height: 46.09px;
+  margin-left: -180px;
+  margin-top: 45.51px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#me_before_you {
+
+  margin-top: 45.51px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.jenre_drama{
+  margin-left: -425px;
+  margin-top: 110.39px;
+}
+.jenre {
+
+  width: 305.34px;
+  height: 46.09px;
+
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#drama {
+
+  width: 305.34px;
+  height: 46.09px;
+  margin-top: 110.39px;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.cickle_love{
+margin-left: -305px;
+  margin-top: 156.88px;
+}
+.cickle {
+
+  width: 392.38px;
+  height: 46.09px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#love {
+
+  width: 392.38px;
+  height: 46.09px;
+  margin-top: 151.88px;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.year_1{
+  margin-top: 200px;
+  margin-left: -390px;
+}
+.year {
+
+  width: 392.38px;
+  height: 46.09px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#year1 {
+
+  width: 392.38px;
+  height: 46.09px;
+  margin-top: 240.07px;
+  margin-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.duration_minutes{
+  margin-left: -395px;
+  margin-top: 250px;
+}
+.duration {
+
+  width: 392.38px;
+  height: 46.09px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#minutes {
+
+  width: 392.38px;
+  height: 46.09px;
+  margin-top: 270.25px;
+  margin-left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.regiser_sherok{
+  margin-left: -390.79px;
+  margin-top: 300.44px;
+}
+.regiser {
+
+  width: 392.38px;
+  height: 46.09px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#sherok {
+
+  width: 392.38px;
+  height: 46.09px;
+  margin-top: 300.44px;
+  margin-left: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.translate_prof{
+  margin-left: -390px;
+  margin-top: 350.62px;
+}
+.translate {
+
+  width: 427.09px;
+  height: 46.09px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+#profesional {
+
+  width: 427.09px;
+  height: 46.09px;
+  margin-top: 330.62px;
+  margin-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/*Плеєр*/
+.player {
+  width: 760.57px;
+  height: 538.76px;
+  margin-left: 263.38px;
+  margin-top: 50px;
+}
+.white_fon_for_player {
+  width: 760.57px;
+  height: 500px;
+  margin-top:  -60.76px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+.black_fon_for_player_cont {
+display: flex;
+  width: 600px;
+  height: 500px;
+  margin-left: 80.28px;
+  margin-top: 47.34px;
+}
+.black_fon_for_player{
+
+  width: 600px;
+  height: 400px;
+  background: #000000;
+  margin-top: 47.34px;
+}
+.player1 {
+  width: 170px;
+  height: 46.47px;
+  margin-left: 1.62px;
+  background: #C4C4C4;
+  border-radius: 15px;
+}
+.player1 h2 {
+
+  width: 170px;
+  height: 23.07px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.player2 {
+margin-top: -65.47px;
+  width: 170px;
+  height: 46.47px;
+  margin-left: 201.62px;
+  background: #C4C4C4;
+  border-radius: 15px;
+}
+.player2 h2 {
+
+  width: 170px;
+  height: 23.07px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.play_btn_white {
+
+  width: 32px;
+  height: 32px;
+  margin-left: 291.34px;
+  margin-top: 184px;
+}
+.line {
+
+  width: 560px;
+  height: 5px;
+  margin-left: 19.72px;
+  margin-top: 135.99px;
+  background: #C4C4C4;
+}
+.play_btn_black {
+
+  width: 32px;
+  height: 32.04px;
+  margin-left: 103px;
+  margin-top: -45px;
+}
+.sound {
+  width: 32px;
+  height: 32.04px;
+  margin-left: 165.67px;
+  margin-top: -30px;
+}
+.fullscreen {
+
+  width: 30.96px;
+  height: 31px;
+  margin-left: 619.52px;
+  margin-top: -30px;
+}
+.timer {
+
+  width: 156.64px;
+  height: 23.97px;
+  margin-left: 197.67px;
+  margin-top: -50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+/*Футер*/
+.footer {
+
+  width: 1300px;
+  height: 131.24px;
+  margin-top: 70px;
+  border-top: #FFFFFF 1px solid;
+}
+.footer_logo {
+
+  width: 216.15px;
+  height: 66px;
+  margin-left: 65px;
+  margin-top: 19.38px;
+}
+#footer_logo_film1 {
+
+  width: 60px;
+  height: 60px;
+}
+#footer_logo_film2 {
+
+  width: 60px;
+  height: 60px;
+  margin-left: -56.39px;
+}
+#footer_logo_text {
+
+  width: 138px;
+  height: 30px;
+  margin-top: -26px;
+  margin-left: 75px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFED66;
+}
+.num_1 {
+
+  width: 160.47px;
+  height: 28.57px;
+  margin-left: 500px;
+  margin-top: -70px;
+  font-family: Pangolin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #C4C4C4;
+}
+.num_2 {
+
+  width: 160.47px;
+  height: 28.57px;
+  margin-left: 500px;
+  margin-top: 30px;
+  font-family: Pangolin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #C4C4C4;
+}
+.znaki {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 60px;
+  margin-left: 970px;
+  margin-top: -80px;
+}
+.znaki img {
+  width: 50px;
+  height: 50px;
+}
+.footer_img1 {
+
+}
+.footer_img2 {
+
+  margin-left: 60px;
+}
+.footer_img3 {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .background {
+    height: 1250px;
+  }
+  .black_fon {
+    width: 457.5px;
+    height: 1099.87px;
+    border-radius: 50px;
+  }
+  .logo {
+    width: 400px;
+    height: 70px;
+    margin-left: 20px;
+  }
+  #logo_film1 {
+    width: 50px;
+    height: 50px;
+  }
+  #logo_film2 {
+    width: 50px;
+    height: 50px;
+    margin-left: -49px;
+  }
+  #logo_text {
+
+    width: 105.76px;
+    height: 22.67px;
+    margin-left: 60px;
+    margin-top: -15px ;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFED66;
+  }
+  .nav_mobile {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    margin-top: 35px;
+  }
+  #nav_mobile {
+    width: 40px;
+    height: 40px;
+    left: 350px;
+  }
+  .nav {
+    display: none;
+  }
+  .information{
+    height: 330px;
+    width: 266px;
+  }
+  .name{
+    margin-left: -400px;
+    margin-top: -100px;
+  }
+  .information_first_text{
+    font-size: 20px;
+  }
+  .film_img{
+    margin-left: -230px;
+    margin-top: -20px;
+  }
+  .film_img img{
+    width: 150px;
+    height: 250px;
+  }
+  .film_information{
+    width: 235px;
+    height: 270px;
+    margin-left: -70px;
+    margin-top: -255px;
+  }
+  .film_information h1{
+    font-size: 13px;
+  }
+  .quality_HD{
+    margin-left: -5px;
+    margin-top: -10px;
+  }
+  #HD{
+    font-size: 15px;
+  }
+  .original_name_mebeforeyou{
+    margin-left: -125px;
+    margin-top: -5px;
+  }
+  #me_before_you{
+    font-size: 13px;
+  }
+  .jenre_drama{
+    margin-top: 60px;
+  }
+  #drama{
+    font-size: 13px;
+  }
+  .cickle_love{
+    margin-top: 90px;
+  }
+  #love{
+    font-size: 13px;
+  }
+  .year_1{
+    margin-top: 115px;
+    margin-left: -390px;
+  }
+  #year1{
+    font-size: 13px;
+  }
+  .duration_minutes{
+    margin-top: 145px;
+  }
+  #minutes{
+    font-size: 13px;
+  }
+  .regiser_sherok{
+    margin-top: 180px;
+  }
+  #sherok{
+    font-size: 13px;
+  }
+  .translate_prof{
+    margin-top: 210px;
+    margin-left: -395px;
+  }
+  #profesional{
+    font-size: 13px;
+  }
+  .film_description{
+    width: 390px;
+    height: 240px;
+    margin-left: -225px;
+    margin-top: -5px;
+  }
+  .desc_text a{
+    font-size: 13px;
+  }
+  .player{
+    width: 400px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 30px;
+  }
+  .white_fon_for_player{
+    width: 400px;
+    height: 250px;
+  }
+  .black_fon_for_player_cont{
+  width: 370px;
+  height: 200px;
+    margin-left: 15px;
+
+  }
+  .black_fon_for_player{
+    width: 370px;
+    height: 200px;
+    margin-top: 25px;
+  }
+  .player1{
+    width: 80px;
+    height: 20px;
+  }
+  .player1 h2{
+    font-size: 13px;
+    margin-left: -45px;
+    margin-top: -5px;
+  }
+  .player2{
+    width: 80px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+  }
+  .player2 h2{
+    font-size: 13px;
+    margin-left: -45px;
+  }
+  .play_btn_white{
+    width: 20px;
+    height: 20px;
+    margin-left: 180px;
+    margin-top: 95px;
+  }
+  .line{
+    width: 330px;
+    height: 5px;
+    margin-top: 60px;
+  }
+  .play_btn_black{
+    margin-top: 27px;
+    margin-left: 30px;
+  }
+  .play_btn_black img{
+    width: 20px;
+    height: 20px;
+  }
+  .sound{
+    margin-top: -32px;
+    margin-left: 70px;
+  }
+  .sound img{
+    width: 20px;
+    height: 20px;
+  }
+  .timer{
+    margin-left: 60px;
+    margin-top: -47px;
+  }
+  .timer h3{
+    font-size: 15px;
+  }
+  .fullscreen{
+margin-left: 350px;
+    margin-top: -25px;
+  }
+  .fullscreen img{
+    width: 20px;
+    height: 20px;
+  }
+  .footer {
+    width: 457.5px;
+    height: 80px;
+    margin-top: 110px;
+  }
+  .footer_logo {
+    width: 60px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 7px;
+  }
+  #footer_logo_film1 {
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+  }
+  #footer_logo_film2 {
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+  }
+  #footer_logo_text {
+    margin-left: 25px;
+    margin-top: -12px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 8px;
+    color: #FFED66;
+  }
+  .num_1 {
+    margin-left: 150px;
+    margin-top: -40px;
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 9px;
+    color: #C4C4C4;
+  }
+  .num_2 {
+    margin-left: 150px;
+    margin-top: 1px;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 9px;
+    color: #C4C4C4;
+  }
+  .znaki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 270px;
+    margin-top: -65px;
+  }
+  .znaki img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/*# sourceMappingURL=styles2.css.map */

@@ -1,0 +1,690 @@
+/*Фон*/
+.background {
+  display: flex;
+  width: 100%;
+  height: 2540.34px;
+  background: #04758B;
+}
+
+.black_fon {
+
+  width: 1300px;
+  height: 2352.98px;
+  margin-left: 100px;
+  margin-top: 100.62px;
+  background: #000000;
+  border-radius: 50px;
+}
+/*Лого і навігація*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 316.38px;
+  height: 106.48px;
+
+  color: #FFED66;
+}
+#nav_mobile {
+  width: 0;
+  height: 0;
+}
+#logo_film1 {
+  z-index: 3;
+  width: 100px;
+  height: 100px;
+}
+#logo_film2 {
+  margin-left: -98px;
+  width: 100px;
+  height: 100px;
+
+}
+#logo_text {
+  margin-top: -35px;
+  margin-left: 120px;
+  width: 192px;
+  height: 41px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+}
+.nav {
+  width: 637.17px;
+  height: 25px;
+  margin-right: 50px;
+  margin-top: 92.09px;
+  color: #FFFFFF;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+.nav_text a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.nav_text:hover {
+  font-weight: bold;
+}
+/*Блок "Допомога"*/
+.we_help_you {
+  display: flex;
+  position: relative;
+  width: 1069.11px;
+  height: 295.37px;
+  margin-left: 156.18px;
+  margin-top: 140px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.help_text {
+
+  width: 451.74px;
+  height: 166.18px;
+  margin-top: 13.66px;
+}
+.white_part_of_btn {
+  width: 427.63px;
+  height: 85.85px;
+  margin-top: 10.85px;
+  margin-left: 20px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+.black_part_of_btn {
+
+  width: 416.97px;
+  height: 76.42px;
+  margin-top: -80.25px;
+margin-left: 25px;
+  background: #000000;
+  border-radius: 30px;
+}
+.text_help_btn {
+  width: 378.34px;
+  height: 50.41px;
+  margin-top: -65px;
+  margin-left: 50.31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.help_foto {
+
+  width: 546px;
+  height: 289.32px;
+  margin-left: 100px;
+}
+/*Жанри*/
+.janres {
+  display: flex;
+  width: 1300.05px;
+  height: 651.66px;
+  margin-top: 100px;
+  border-bottom: white solid 1px;
+  border-top: white solid 1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+.text_janre {
+
+  width: 100.83px;
+  height: 43.07px;
+  margin-top: 16.01px;
+  margin-left: 619px;
+  color: #FFFFFF;
+}
+.romantic {
+
+  height: 235px;
+  width: 200px;
+  margin-left: -659px;
+  margin-top: 90px;
+  color: #FFFFFF;
+}
+.janres img {
+  width: 200px;
+  height: 200px;
+}
+.boyovic {
+
+  width: 200px;
+  height: 35px;
+  color: #FFED66;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.ufo {
+
+  width: 200px;
+  height: 35px;
+  margin-left: 230px;
+  margin-top: 70px;
+  color: #FFFFFF;
+}
+.comedy {
+
+  width: 200px;
+  height: 35px;
+  margin-left: 70px;
+  margin-top: 70px;
+  color: #FFED66;
+}
+.travel {
+
+  width: 200px;
+  height: 35px;
+  margin-left: -1165px;
+  margin-top: 350px;
+  color: #FFED66;
+}
+.horror {
+
+  width: 200px;
+  height: 35px;
+  margin-left: 70px;
+  margin-top: 350px;
+  color: #FFFFFF;
+}
+.family {
+
+  width: 200px;
+  height: 35px;
+  margin-left: 230px;
+  margin-top: 350px;
+  color: #FFED66;
+}
+.drama {
+
+  width: 200px;
+  height: 35px;
+  margin-left: 70px;
+  margin-top: 350px;
+  color: #FFFFFF;
+}
+/*Зараз дивляться*/
+.watching_now {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1159.18px;
+  height: 281.96px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.text_now_watching {
+
+  width: 217.5px;
+  height: 44.04px;
+  margin-top: 50px;
+  margin-left: 540px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+.watching_now img {
+  flex-direction: row;
+  width: 170px;
+  height: 218.21px;
+  top: 19.71px;
+}
+/*Кращі фільми*/
+.text_best_films {
+
+  width: 176.65px;
+  height: 44.04px;
+  margin-left: 563.25px;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+.best_films {
+  display: flex;
+  justify-content: space-between;
+  width: 1159.18px;
+  height: 286.17px;
+  margin-left: 65px;
+  margin-top: 40px;
+}
+.best_films img {
+  flex-direction: row;
+  width: 170px;
+  height: 218.21px;
+  top: 24.13px;
+}
+/*Футер*/
+.footer {
+
+  width: 1300px;
+  height: 131.24px;
+  margin-top: 100px;
+  border-top: #FFFFFF 1px solid;
+}
+.footer_logo {
+
+  width: 216.15px;
+  height: 66px;
+  margin-left: 65px;
+  margin-top: 19.38px;
+}
+#footer_logo_film1 {
+
+  width: 60px;
+  height: 60px;
+}
+#footer_logo_film2 {
+
+  width: 60px;
+  height: 60px;
+  margin-left: -56.39px;
+}
+#footer_logo_text {
+
+  width: 138px;
+  height: 30px;
+  margin-top: -26px;
+  margin-left: 75px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFED66;
+}
+.num_1 {
+
+  width: 160.47px;
+  height: 28.57px;
+  margin-left: 500px;
+  margin-top: -70px;
+  font-family: Pangolin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #C4C4C4;
+}
+.num_2 {
+
+  width: 160.47px;
+  height: 28.57px;
+  margin-left: 500px;
+  margin-top: 30px;
+  font-family: Pangolin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #C4C4C4;
+}
+.znaki {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 60px;
+  margin-left: 970px;
+  margin-top: -80px;
+}
+.znaki img {
+  width: 50px;
+  height: 50px;
+}
+.footer_img1 {
+
+}
+.footer_img2 {
+
+  margin-left: 60px;
+}
+.footer_img3 {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+  @media (max-width: 1200px) {
+    .background {
+      height: 1250px;
+    }
+    .black_fon {
+      width: 457.5px;
+      height: 1109.87px;
+      border-radius: 50px;
+    }
+    .logo {
+      width: 400px;
+      height: 70px;
+      margin-left: 20px;
+    }
+    #logo_film1 {
+      width: 50px;
+      height: 50px;
+    }
+    #logo_film2 {
+      width: 50px;
+      height: 50px;
+      margin-left: -49px;
+    }
+    #logo_text {
+
+      width: 105.76px;
+      height: 22.67px;
+      margin-left: 60px;
+      margin-top: -15px ;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFED66;
+    }
+    .nav_mobile {
+      width: 40px;
+      height: 40px;
+      margin-right: 40px;
+      margin-top: 35px;
+    }
+    #nav_mobile {
+      width: 40px;
+      height: 40px;
+      left: 350px;
+    }
+    .nav {
+      display: none;
+    }
+    /*Допомога*/
+    .we_help_you {
+      width: 360px;
+      height: 350px;
+      margin-top: 130px;
+      margin-left: 50px;
+    }
+    .help_foto {
+      margin-top: -100px;
+      margin-left: -300px;
+      width: 350px;
+      height: 200px;
+    }
+    .help_text {
+      width: 258.8px;
+      height: 27.39px;
+      margin-left: 50px;
+      margin-top: 124.91px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .white_part_of_btn {
+      margin-left: 110px;
+      width: 150px;
+      height: 50px;
+    }
+    .black_part_of_btn {
+
+      margin-left: 115px;
+      margin-top: -47px;
+      width: 140px;
+      height: 45px;
+    }
+    .text_help_btn {
+      width: 88.48px;
+      height: 45px;
+      margin-left: 140px;
+      margin-top: -30px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 14px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    /*Жанри*/
+    .janres {
+
+      width: 457.5px;
+      height: 150px;
+      margin-top: -100px;
+    }
+    .text_janre {
+      margin-left: 180px;
+      margin-top: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .janres img {
+      width: 90px;
+      height: 90px;
+    }
+    .romantic {
+
+      width: 130px;
+      height: 120px;
+      margin-top: 50px;
+      margin-left: -280px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .boyovic {
+
+      width: 130px;
+      height: 120px;
+      margin-top: 40px;
+      margin-left: 45px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+    }
+    .comedy {
+
+      width: 130px;
+      height: 120px;
+      margin-top: 40px;
+      margin-left: 45px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+    }
+    .ufo {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    .travel {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    .horror {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    .family {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    .drama {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+    /*Зараз дивляться*/
+    .watching_now {
+
+      width: 440px;
+      height: 150px;
+      margin-top: -10px;
+      margin-left: 10px;
+    }
+    .text_now_watching {
+      margin-top: 20px;
+      margin-left: 125px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .watching_now img {
+
+      width: 100px;
+      height: 120px;
+    }
+    .not_in_mobile {
+      display: none;
+    }
+    /*Кращі фільми*/
+    .text_best_films {
+
+      margin-left: 146px;
+      margin-top: 5px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 12px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .best_films {
+
+      width: 440px;
+      height: 150px;
+      margin-top: -10px;
+      margin-left: 10px;
+    }
+    .best_films img {
+      width: 100px;
+      height: 120px;
+    }
+    /*Футер*/
+    .footer {
+      width: 457.5px;
+      height: 80px;
+      margin-top: 40px;
+    }
+    .footer_logo {
+      width: 60px;
+      height: 40px;
+      margin-left: 40px;
+      margin-top: 7px;
+    }
+    #footer_logo_film1 {
+      width: 30px;
+      height: 30px;
+      margin-left: -15px;
+    }
+    #footer_logo_film2 {
+      width: 30px;
+      height: 30px;
+      margin-left: -30px;
+    }
+    #footer_logo_text {
+      margin-left: 25px;
+      margin-top: -12px;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 8px;
+      color: #FFED66;
+    }
+    .num_1 {
+      margin-left: 150px;
+      margin-top: -40px;
+      font-family: Pangolin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 9px;
+      color: #C4C4C4;
+    }
+    .num_2 {
+      margin-left: 150px;
+      margin-top: 1px;
+
+      font-family: Pangolin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 9px;
+      color: #C4C4C4;
+    }
+    .znaki {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      margin-left: 270px;
+      margin-top: -65px;
+    }
+    .znaki img {
+      width: 25px;
+      height: 25px;
+    }
+
+  }
+
+/*# sourceMappingURL=styles.css.map */
